@@ -1,3 +1,16 @@
 header a.logo {
    background-size: 55% auto;
 }
+
+.personal-profile {
+    border-bottom: solid 1px #ccc;
+    margin-bottom: 35px;
+    /* Need section to expand around all content */
+    overflow: auto;
+}
+
+.personal-profile aside {
+    float: right;
+    width: 48%;
+    padding-left: 2%;
+}

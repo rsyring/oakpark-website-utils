@@ -1,0 +1,17 @@
+{% for item in data %}
+<section class="personal-profile">
+    <heading>
+        <h2>{{item.name}}</h2>
+        <p>{{item.position}} | <a href="mailto:{{item.email}}">{{item.email}}</a></p>
+    </heading>
+    <aside>
+        <img class="cld-responsive"
+            data-src="https://res.cloudinary.com/oakpark/c_scale,w_auto,dpr_auto/{{item.cdn_ident}}.jpg"
+            src="https://res.cloudinary.com/oakpark/c_scale,w_434,q_auto:low/{{item.cdn_ident}}.jpg"
+            alt="{{item.name}}"/>
+    </aside>
+    {% for p in item.content %}
+    <p>{{p}}</p>
+    {% endfor %}
+</section>
+{% endfor %}
