@@ -10,11 +10,17 @@ def home():
     return 'Its working, use a page URL'
 
 
-@app.route('/<page>')
+@app.route('/<page>.html')
 def page(page):
+    source = flask.request.args.get('source', None)
     page_fname = '{}.html'.format(secure_filename(page))
     data = getattr(pages, page)
-    return flask.render_template('layout.html', page_fname=page_fname, data=data)
+    if source is not None:
+        template = flask.render_template(page_fname, data=data)
+        response = flask.make_response(template)
+        response.headers['Content-Type'] = 'text/plain'
+        return response
+    return flask.render_template('layout.html', page_fname=page_fname, data=data, page=page.title())
 
 
 @app.route('/css/<path:filename>')

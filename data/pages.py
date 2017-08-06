@@ -23,7 +23,7 @@ elders = [
                 Seminary and The Southern Baptist Theological Seminary. Chase desires to see
                 Christians built up by the truths of God's Word, so that they may be equipped
                 to encourage others and make Christ known.
-            ''']
+        ''']
     ),
     dict(
         name='Chris West',
@@ -98,5 +98,133 @@ elders = [
             serve as leaders in the Oak Park college ministry. As an elder Jim desires to equip the
             church to carry out the great commission.
             ''']
+    ),
+]
+
+deacons = [
+    dict(
+        name='John Ketenbrink',
+        position='Chariman',
+        cdn_ident='john-ketenbrink-portrait',
+        content=['''
+            John grew up on a small farm outside of Rising Sun, Indiana. He and his wife, Andrea
+            joined Oak Park in 2002. They now have three children: Haley, Rachel, and Logan. John
+            was raised in a Christian home, and turned his life over to Christ as a young child. He
+            is actively involved in the planning and development of Oak Park’s physical campus so it
+            can be used as an effective ministry tool for years to come.
+        ''']
+    ),
+    dict(
+        name='Kyle Kingery',
+        position='Facilities',
+        cdn_ident='kyle-kingery-portrait',
+        content=['''
+            Kyle was born and raised in Indiana, where he met his wife Stephanie. They have two
+            children, Mackenzie and Noah. Kyle came to Christ through the preaching and teaching of
+            God’s word at the age of 12 in his local church. He is excited about serving Oak Park
+            through helping oversee future expansion and assisting the facilities director in normal
+            building management.
+        ''']
+    ),
+    dict(
+        name='Terry McMahan',
+        position='Finance',
+        cdn_ident='terry-mcmahan-portrait',
+        content=['''
+            Terry grew up in a small town in middle Tennessee. Since leaving there, he has moved 28
+            times since his marriage to his wife Julia in 1967. They have two adult children, Kimber
+            and Michael, and seven grandchildren. They began attending Oak Park in 2014. Reared in a
+            church going family, Terry was a nominal Christian until becoming a committed believer
+            as a young adult as a result of regular church involvement and the influence of other
+            Christians. He enjoys individual and small group discussions with others about life,
+            relationships, and the gospel.
+        ''']
+    ),
+    dict(
+        name='Scott Graves',
+        position='Worship Services',
+        cdn_ident='scott-graves-portrait',
+        content=['''
+            Scott’s father was an army officer, so he moved every year until he was in Junior High.
+            They eventually settled in Salem, Indiana, where he attended church every Sunday
+            participating in all the regular church activities. It was not until after spending
+            several years in the army and marrying his wife Kimber that he truly surrendered his
+            heart to Christ. They now have three children: Ethan, Anna and Emma. Their goal is to
+            glorify Christ in all things.
+        ''']
+    ),
+    dict(
+        name='Mike Callahan',
+        position='Worship Services',
+        cdn_ident='mike-callahan-portrait',
+        content=['''
+            Mike was born and raised in Kentucky. He is married to Susan, and they have two
+            children, Chad and Cydney. They came to Oak Park in 2002. Mike came to Christ at the age
+            of 17 at a tent revival. Mike enjoys greeting newcomers to the church and making sure
+            they feel welcomed.
+        ''']
+    ),
+    dict(
+        name='David Lewis Jr.',
+        position='Shut-ins',
+        cdn_ident='david-lewis-jr-portrait',
+        content=['''
+            David is originally from Miami, Florida and came to Oak Park in 1984 after graduating
+            from Cumberland College. While at Cumberland, David met Lori Albro, whose family had
+            been at Oak Park since the early 60’s. David and Lori have been married since 1984 and
+            have two grown children, Ryan and Emily. David came to know Christ as a young child
+            through the influences of his parents, their church in Miami and, specifically, VBS. He
+            enjoys being part of a church that has such a rich history and embraces the blending of
+            those traditions with the new ideas that come with church growth through new, young
+            families.
+        ''']
+    ),
+    dict(
+        name='Doug Broady',
+        position='Technology',
+        cdn_ident='doug-broady-portrait',
+        content=['''
+            Doug grew up in Jeffersonville and has attended Oak Park Baptist since 1965. His wife
+            Terry is also from Jeffersonville and they have three sons and three grandsons. Doug is
+            a Navy veteran and currently works as an IT manager. He was raised in a Christian home
+            and started his walk with Christ in 1974. Doug believes involvement in ministry through
+            the local church is the best way to serve the Lord, have fellowship with believers, and
+            grow in your faith.
+        ''']
+    ),
+    dict(
+        name='Nick Heavner',
+        position='Technology',
+        cdn_ident='nick-heavner-portrait',
+        content=['''
+            Nick is from Columbus, Indiana, and came to Jeffersonville for his job in architecture.
+            He and his wife Amy joined Oak Park in 2004. They have three children, Alex, Ryan, and
+            Kelly. Nick came to know Christ while in college through a Campus Crusade event. He
+            enjoys spending time with his family and serving others in the church.
+        ''']
+    ),
+    dict(
+        name='Brennan Webb',
+        position='Shut-ins',
+        content=['''
+            Brennan was raised in North Florida, home of the Seminoles. Through the faithful
+            preaching of the word, Brennan came to know Jesus at the age of 11, growing and being
+            discipled throughout middle and high school. Brennan seeks to serve the body at Oak Park
+            through teaching discipleship classes, leading community group, and co-leading care to
+            seniors.
+        ''']
+    ),
+    dict(
+        name='Cory Bledsoe',
+        position='Mercy ministry',
+        cdn_ident='cory-bledsoe-portrait',
+        content=['''
+            Cory grew up in Kingsport, Tennessee before spending his college years in Georgia. He is
+            married to Sarah Bledsoe and they have one daughter, Hannah. Cory is the Executive
+            Director of the Louisville Rescue Mission, a gospel-centered ministry to men and women
+            experiencing homelessness and poverty. Cory grew up in a Christian environment, but did
+            not come to Christ until college. He is grateful and humbled to serve in the mercy
+            ministry arm of the church.
+        ''']
     ),
 ]
