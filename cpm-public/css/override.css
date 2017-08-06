@@ -18,3 +18,32 @@ header a.logo {
 .personal-profile heading p {
     font-size: 1.2em;
 }
+
+.cms-output section {
+    margin-bottom: 35px;
+    /* Need section to expand around all content */
+    overflow: auto;
+}
+
+.cms-output aside {
+    float: right;
+    width: 48%;
+    padding-left: 2%;
+}
+
+.cms-output .btn {
+    -webkit-border-radius: 16;
+    -moz-border-radius: 16;
+    border-radius: 16px;
+    font-family: Arial;
+    color: #000 !important;
+    font-size: 20px;
+    background: #d9bd80;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.cms-output .btn:hover {
+    background: #bfa671;
+    text-decoration: none;
+}

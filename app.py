@@ -14,7 +14,7 @@ def home():
 def page(page):
     source = flask.request.args.get('source', None)
     page_fname = '{}.html'.format(secure_filename(page))
-    data = getattr(pages, page)
+    data = getattr(pages, page, None)
     if source is not None:
         template = flask.render_template(page_fname, data=data)
         response = flask.make_response(template)
