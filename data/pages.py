@@ -6,7 +6,7 @@
 #     cdn_ident='-portrait',
 #     content=['''
 #
-#         ''']
+#     ''']
 # ),
 
 elders = [
@@ -225,6 +225,76 @@ deacons = [
             experiencing homelessness and poverty. Cory grew up in a Christian environment, but did
             not come to Christ until college. He is grateful and humbled to serve in the mercy
             ministry arm of the church.
+        ''']
+    ),
+]
+
+staff = [
+    dict(
+        name='Nick Weaver',
+        position='Facilities Director (staff)',
+        email='nick.weaver@oakparkbaptist.com',
+        cdn_ident='nick-weaver-portrait',
+        content=['''
+            Nick grew up in Arkansas and came to Oak Park in 2012. He is married to Whitney and they
+            have two children, Norah and Silas. Nick was saved at a young age after hearing the
+            gospel from Christian parents and a faithful church. Overseeing the facilities that God
+            has blessed Oak Park with provides him with great satisfaction as it helps to serve the
+            gospel ministry in the community.
+        ''']
+    ),
+    dict(
+        name='Terry Broady',
+        position='Ministry Assistant',
+        email='terry-broady@oakparkbaptist.com',
+        cdn_ident='terry-broady-portrait',
+        content=['''
+            Terry was born and raised in Jeffersonville, Indiana. She has been married to Doug since
+            1972 and they have three sons and three grandsons. Terry came to Christ when she was 10
+            through the dedication of her mother who always saw that she went to church on Sundays
+            even when her mother could not drive and her father did not go. Terry enjoys being the
+            Ministry Assistant and interacting with the staff and members of Oak Park.
+        ''']
+    ),
+    dict(
+        name='Jeremy Sumners',
+        position='Pastoral Apprentic',
+        email='jeremy.sumners@oakparkbaptist.com',
+        cdn_ident='jeremy-sumners-portrait',
+        content=['''
+            Jeremy grew up in Spring Hill, Tennessee and came to Oak Park in 2014. He has been
+            married to his bride Beth since 2013. He was saved as a teenager and has been involved
+            in the local church since then pursuing a call to ministry. Jeremy has a bachelor’s
+            degree from Boyce College, and is currently pursuing a Master of Divinity in Biblical
+            Counseling from The Southern Baptist Theological Seminary. Jeremy’s passion is to see
+            people mature in Christ through teaching and discipleship, growing in holiness, and
+            being transformed further into the image of Christ.
+        ''']
+    ),
+    dict(
+        name='Ethan Graves',
+        position='Pastoral Apprentice',
+        email='ethan.graves@oakparkbaptist.com',
+        cdn_ident='ethan-graves-portrait',
+        content=['''
+            Ethan was born in Colorado Springs, Colorado, and has spent most of his life here in the
+            southern Indiana area. Christ saved him at a young age through the faithful Gospel
+            witness of his parents. He is currently pursuing a Bachelor of Arts and Master of
+            Divinity at The Southern Baptist Theological Seminary. Hoping to be a church planting
+            pastor once he graduates, Ethan is excited to be serving alongside the elders in every
+            way he can.
+        ''']
+    ),
+    dict(
+        name='Kaitlyn S.',
+        position='Outreach Intern',
+        email='outreach@oakparkbaptist.com',
+        cdn_ident='kaitlyn-portrait',
+        content=['''
+            Kaitlyn grew up in Osceola, Missouri. The Lord graciously saved her in her early teenage
+            years and she came to Oak Park in 2014. Kaitlyn is currently a student at Boyce College.
+            She is excited to see church members mobilized in great commission work both locally and
+            to the ends of the earth.
         ''']
     ),
 ]
