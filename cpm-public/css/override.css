@@ -14,3 +14,7 @@ header a.logo {
     width: 48%;
     padding-left: 2%;
 }
+
+.personal-profile heading p {
+    font-size: 1.2em;
+}
