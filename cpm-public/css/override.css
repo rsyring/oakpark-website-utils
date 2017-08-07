@@ -47,3 +47,8 @@ header a.logo {
     background: #bfa671;
     text-decoration: none;
 }
+
+/* li is not styled like the paragraphs */
+.cms-output li {
+    color: #62605b;
+}
